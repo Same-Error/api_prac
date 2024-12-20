@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [ChangeNotifierProvider(create: (context) => ApiController())],
       child: MaterialApp(
-        title: 'APP Live',
+        title: 'APP Live 2',
         theme: ThemeData(
           // This is the theme of your application.
           //
